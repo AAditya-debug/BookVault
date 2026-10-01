@@ -1,0 +1,6 @@
+# Core requirements for BookVault — Library Management System
+# Pure Python standard library is used for SQLite, CSV, and business logic.
+# The following dependencies are used for testing, reporting, and documentation.
+
+pytest>=8.0.0
+reportlab>=4.0.0

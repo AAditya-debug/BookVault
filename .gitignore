@@ -1,0 +1,45 @@
+# Python cache & build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local runtime data & exports (keep structure, ignore sqlite db binaries)
+data/bookvault.db
+data/exports/*.csv
+!data/exports/.gitkeep
